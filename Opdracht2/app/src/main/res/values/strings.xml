@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Opdracht2</string>
+    <string name="hint1">Houd met het gebruik van deze app de score van de wedstrijd bij</string>
+    <string name="team1">Team 1</string>
+    <string name="team2">Team 2</string>
+    <string name="plustext">+</string>
+    <string name="mintext">-</string>
+    <string name="scoreboard">Scoreboard</string>
+</resources>

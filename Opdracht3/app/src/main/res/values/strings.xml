@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Opdracht3</string>
+    <string name="title">De Blender Quiz</string>
+    <string name="hint1">Beantwoord de volgende vraag:</string>
+</resources>

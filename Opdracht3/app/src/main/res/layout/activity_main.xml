@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:background="#eb6421"/>
+
+    <TextView
+        android:text="@string/hint1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:text="Wat is het logo van Blender?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#eb6421"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ans1_1"
+            android:layout_width="186dp"
+            android:layout_height="173dp"
+            android:layout_gravity="center"
+            android:background="@drawable/blender_logo"
+            android:src="@drawable/blender_logo" />
+
+        <Button
+            android:id="@+id/ans_2_1"
+            android:layout_width="192dp"
+            android:layout_height="189dp"
+            android:layout_gravity="center"
+            android:background="@drawable/autodesk"
+            android:src="@drawable/autodesk" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
